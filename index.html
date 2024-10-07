@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Signin/Signup Forms</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-wrapper signup">
+        <form action="#">
+          <h2>Signup</h2>
+          <div class="box">
+            <input type="text" required />
+            <label for="">Username</label>
+          </div>
+          <div class="box">
+            <input type="text" required />
+            <label for="">Email</label>
+          </div>
+          <div class="box">
+            <input type="password" required />
+            <label for="">Password</label>
+          </div>
+          <button class="btn" type="submit">Signup</button>
+          <div class="toggle-link">
+            <p>
+              Already have an account?
+              <a href="#" class="signin-link">Signin</a>
+            </p>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-wrapper signin">
+        <form action="#">
+          <h2>Login</h2>
+          <div class="box">
+            <input type="text" required />
+            <label for="">Username</label>
+          </div>
+          <div class="box">
+            <input type="password" required />
+            <label for="">Password</label>
+          </div>
+          <div class="pass">
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button class="btn" type="submit">Login</button>
+          <div class="toggle-link">
+            <p>
+              Don't have an account?
+              <a href="#" class="signup-link">Signup</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
